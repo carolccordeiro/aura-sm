@@ -1,0 +1,27 @@
+
+@media (min-width: 768px) and (max-width: 1299px) {
+  header {
+    padding: 20px 40px;
+  }
+
+  .wrapper {
+    gap: 30px;
+  }
+
+  .menu-area {
+    gap: 40px;
+  }
+
+  .menu {
+    gap: 30px;
+  }
+
+  .main-section {
+    gap: 30px;
+  }
+
+  .mindmap .map-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

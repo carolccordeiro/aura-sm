@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aura SM - Solução</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-medium.css">
+  <link rel="stylesheet" href="style-small.css">
+  <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
+
+  <div class="acessibilidade-bar">
+    <button onclick="aumentarFonte()">A+</button>
+    <button onclick="diminuirFonte()">A-</button>
+    <button onclick="contraste()">Contraste</button>
+    <button onclick="lerTexto()">🔊</button>
+    <button onclick="resetar()">Resetar</button>
+  </div>
+
+  <header>
+    <div class="wrapper">
+      <div class="circle-container">
+        <div class="circle"></div><div class="circle"></div><div class="circle"></div>
+      </div>
+      <div class="brand"><h1>Aura <span class="sm">SM</span></h1></div>
+    </div>
+
+    <nav class="menu-area">
+      <div class="hamburger" onclick="toggleMenu()">
+        <div></div><div></div><div></div>
+      </div>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="integrantes.html">Integrantes</a>
+        <a href="solucao.html">Solução</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contato.html">Contato</a>
+      </div>
+      <input class="search-bar" type="text" placeholder="Pesquisar...">
+    </nav>
+  </header>
+
+
+  <main>
+    <section class="main-section">
+      <div class="text">
+    <h2>Solução Proposta</h2>
+<p>
+A Aura SM é uma plataforma de telemedicina focada em saúde mental. Oferecemos um ambiente seguro, acessível e prático, conectando pacientes e profissionais de forma rápida e eficiente.
+</p>
+<p>
+Nosso diferencial está em funcionalidades como agendamento online, chatbot terapêutico, diário de humor e acompanhamento contínuo. Tudo isso com segurança de dados, seguindo a LGPD.
+</p>
+<p>
+Nosso objetivo é facilitar o acesso à saúde mental, reduzir barreiras como deslocamento, filas e custos, e promover uma jornada de cuidado contínua, humanizada e eficiente.
+</p>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Carolina Cordeiro Silva - RM: 564234 | Lucas Freitas Ferreira - RM: 566048 | João Victor Gomes de Souza - RM: 560907</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

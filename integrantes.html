@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aura SM - Integrantes</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-medium.css">
+  <link rel="stylesheet" href="style-small.css">
+  <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
+
+
+  <div class="acessibilidade-bar">
+    <button onclick="aumentarFonte()">A+</button>
+    <button onclick="diminuirFonte()">A-</button>
+    <button onclick="contraste()">Contraste</button>
+    <button onclick="lerTexto()">🔊</button>
+    <button onclick="resetar()">Resetar</button>
+  </div>
+
+
+  <header>
+    <div class="wrapper">
+      <div class="circle-container">
+        <div class="circle"></div><div class="circle"></div><div class="circle"></div>
+      </div>
+      <div class="brand"><h1>Aura <span class="sm">SM</span></h1></div>
+    </div>
+
+    <nav class="menu-area">
+      <div class="hamburger" onclick="toggleMenu()">
+        <div></div><div></div><div></div>
+      </div>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="integrantes.html">Integrantes</a>
+        <a href="solucao.html">Solução</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contato.html">Contato</a>
+      </div>
+      <input class="search-bar" type="text" placeholder="Pesquisar...">
+    </nav>
+  </header>
+
+  <section class="main-section integrantes">
+    <div class="integrante">
+      <img src="imagens/carolina.png" alt="Foto de Carolina Cordeiro Silva">
+      <div>
+        <p><strong>Carolina Cordeiro Silva</strong></p>
+        <p>RM: 564234</p>
+        <p>
+          <a href="https://github.com/" target="_blank">
+            <img src="imagens/github.png" alt="GitHub" width="16"> GitHub
+          </a> | 
+          <a href="https://linkedin.com/" target="_blank">
+            <img src="imagens/lk.png" alt="LinkedIn" width="16"> LinkedIn
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="integrante">
+      <img src="imagens/lucas.png" alt="Foto de Lucas Freitas Ferreira">
+      <div>
+        <p><strong>Lucas Freitas Ferreira</strong></p>
+        <p>RM: 566048</p>
+        <p>
+          <a href="https://github.com/" target="_blank">
+            <img src="imagens/github.png" alt="GitHub" width="16"> GitHub
+          </a> | 
+          <a href="https://linkedin.com/" target="_blank">
+            <img src="imagens/lk.png" alt="LinkedIn" width="16"> LinkedIn
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="integrante">
+      <img src="imagens/joao.png" alt="Foto de João Victor Gomes de Souza">
+      <div>
+        <p><strong>João Victor Gomes de Souza</strong></p>
+        <p>RM: 560907</p>
+        <p>
+          <a href="https://github.com/" target="_blank">
+            <img src="imagens/github.png" alt="GitHub" width="16"> GitHub
+          </a> | 
+          <a href="https://linkedin.com/" target="_blank">
+            <img src="imagens/lk.png" alt="LinkedIn" width="16"> LinkedIn
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Carolina Cordeiro Silva - RM: 564234 | Lucas Freitas Ferreira - RM: 566048 | João Victor Gomes de Souza - RM: 560907</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aura SM - Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-medium.css">
+  <link rel="stylesheet" href="style-small.css">
+  <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
+
+  <div class="acessibilidade-bar">
+    <button onclick="aumentarFonte()">A+</button>
+    <button onclick="diminuirFonte()">A-</button>
+    <button onclick="contraste()">Contraste</button>
+    <button onclick="lerTexto()">🔊</button>
+    <button onclick="resetar()">Resetar</button>
+  </div>
+
+  <header>
+    <div class="wrapper">
+      <div class="circle-container">
+        <div class="circle"></div><div class="circle"></div><div class="circle"></div>
+      </div>
+      <div class="brand"><h1>Aura <span class="sm">SM</span></h1></div>
+    </div>
+
+    <nav class="menu-area">
+      <div class="hamburger" onclick="toggleMenu()">
+        <div></div><div></div><div></div>
+      </div>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="integrantes.html">Integrantes</a>
+        <a href="solucao.html">Solução</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contato.html">Contato</a>
+      </div>
+      <input class="search-bar" type="text" placeholder="Pesquisar...">
+    </nav>
+  </header>
+
+
+  <section id="slides-container">
+    <div class="slide active">
+      <img src="imagens/medicoatendendo.png" alt="Pessoa médica usando notebook">
+      <div class="text">
+        <h2>Consultas online com facilidade</h2>
+        <p>Nosso sistema conecta pacientes a médicos de forma rápida, segura e prática, garantindo conforto e qualidade no atendimento remoto.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="imagens/seguranca.png" alt="Pessoa médica analisando dados no computador">
+      <div class="text">
+        <h2>Armazenamento seguro de dados</h2>
+        <p>Garantimos o armazenamento seguro dos seus dados, com padrões de segurança e privacidade, cumprindo as normas da LGPD.</p>
+      </div>
+    </div>
+
+    <div class="arrow left">&#10094;</div>
+    <div class="arrow right">&#10095;</div>
+  </section>
+
+
+  <section class="mindmap">
+  <h3>Como funciona a Aura</h3>
+<div class="map-container">
+  <div class="map-node">
+    <strong>Paciente</strong>
+    <p>Agenda consultas, realiza atendimentos online e acompanha seu tratamento de forma prática.</p>
+  </div>
+  <div class="map-node">
+    <strong>Médico</strong>
+    <p>Recebe agendamentos, realiza consultas e emite prescrições e recomendações.</p>
+  </div>
+  <div class="map-node">
+    <strong>Sistema</strong>
+    <p>Conecta paciente, médico e suporte, garantindo segurança, agilidade e comunicação.</p>
+  </div>
+  <div class="map-node">
+    <strong>Suporte</strong>
+    <p>Auxilia os usuários em dúvidas técnicas, cadastro, acesso e uso da plataforma.</p>
+  </div>
+</div>
+
+  </section>
+
+
+  <footer>
+    <p>Carolina Cordeiro Silva - RM: 564234 | Lucas Freitas Ferreira - RM: 566048 | João Victor Gomes de Souza - RM: 560907</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
