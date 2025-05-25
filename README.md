@@ -23,11 +23,11 @@ O Aura SM é uma plataforma que conecta pacientes, médicos e suporte técnico, 
 
 ## Tecnologias Utilizadas
 - HTML5  
-- CSS3 (com Media Queries para responsividade)  
-- JavaScript (Vanilla)  
-- Git & GitHub (Versionamento)  
-- Integração com VLibras (Acessibilidade em Libras)  
-- Ferramentas de Design: Figma e Illustrator (para identidade visual e protótipos)
+- CSS3 
+- JavaScript  
+- Git & GitHub
+- Integração com VLibras
+- Ferramentas de Design: Figma e Illustrator
 
 ## Integrantes da Equipe
 - Carolina Cordeiro Silva — RM: 564234  
@@ -35,5 +35,5 @@ O Aura SM é uma plataforma que conecta pacientes, médicos e suporte técnico, 
 - João Victor Gomes de Souza — RM: 560907  
 
 ## Endereço do Repositório no GitHub
-https://github.com/NOME-DA-ORGANIZACAO/aura-sm  
-**(Substituir pelo link real assim que estiver publicado)
+(https://github.com/carolccordeiro/aura-sm)
+
