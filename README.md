@@ -36,4 +36,4 @@ O Aura SM é uma plataforma que conecta pacientes, médicos e suporte técnico, 
 
 ## Endereço do Repositório no GitHub
 https://github.com/NOME-DA-ORGANIZACAO/aura-sm  
-(Substituir pelo link real assim que estiver publicado)
+**(Substituir pelo link real assim que estiver publicado)
