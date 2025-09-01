@@ -1,38 +1,28 @@
-# Aura SM — Plataforma de Telemedicina
+Aura SM — Telemedicine Platform
 
-## Objetivo do Projeto
-O projeto Aura SM surgiu da necessidade crescente de soluções em telemedicina, especialmente voltadas para saúde mental. A pandemia de COVID-19 evidenciou grandes lacunas no acesso a profissionais da área, principalmente em municípios onde não há disponibilidade de psiquiatras ou psicólogos.
+Overview
+Aura SM nasceu como resposta à crescente demanda por soluções digitais em saúde mental, especialmente em regiões com acesso limitado a psiquiatras e psicólogos. Inspirado pelos desafios da pandemia, o projeto buscou democratizar o acesso à saúde mental, conectando pacientes e profissionais em um ambiente seguro, acessível e humanizado.
 
-O Aura SM é uma plataforma que conecta pacientes, médicos e suporte técnico, oferecendo consultas online, acompanhamento contínuo, armazenamento seguro de dados e ferramentas de acessibilidade. A proposta visa democratizar o acesso à saúde mental, proporcionando uma experiência humanizada, eficiente e segura tanto para pacientes quanto para profissionais.
+My Contribution
+Atuei no desenvolvimento do front-end e na concepção da experiência digital, focando em design responsivo, acessibilidade e navegação intuitiva. Colaborei também na identidade visual e na estrutura de conteúdo, integrando tecnologia e design para uma experiência clara e acolhedora.
 
-## Estrutura de Pastas e Arquivos
-/aura-sm
-│
-├── imagens/ → Imagens do projeto (ícones e fotos)
-├── style.css → Estilo base (Desktop)
-├── style-medium.css → Estilo para telas médias (Tablet)
-├── style-small.css → Estilo para telas pequenas (Mobile)
-├── script.js → Funcionalidades e interatividade (JavaScript)
-│
-├── index.html → Página inicial
-├── integrantes.html → Página dos integrantes da equipe
-├── solucao.html → Detalhamento da solução proposta
-├── faq.html → Perguntas frequentes
-├── contato.html → Página de contato
+Key Features
+	•	Consultas online com acompanhamento contínuo
+	•	Armazenamento seguro de dados e informações sensíveis
+	•	Recursos de acessibilidade integrados (VLibras)
+	•	Interface responsiva para desktop, tablet e mobile
+	•	Conteúdo estruturado em páginas de solução, FAQ e contato
 
+Tech Stack
+	•	HTML5, CSS3, JavaScript
+	•	Git & GitHub
+	•	Figma & Illustrator (UI/UX Design)
+	•	VLibras (acessibilidade digital)
 
-## Tecnologias Utilizadas
-- HTML5  
-- CSS3 
-- JavaScript  
-- Git & GitHub
-- Integração com VLibras
-- Ferramentas de Design: Figma e Illustrator
+⸻
 
-## Integrantes da Equipe
-- Carolina Cordeiro Silva — RM: 564234  
-- Lucas Freitas Ferreira — RM: 566048  
-- João Victor Gomes de Souza — RM: 560907  
+	•	Nome do projeto: Aura SM — Telemedicine Platform
+	•	Data: First Semester of 2025 – ADS Course at FIAP
 
 ## Endereço do Repositório no GitHub
 (https://github.com/carolccordeiro/aura-sm)
